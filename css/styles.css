@@ -1,0 +1,20 @@
+.author {
+  text-align: center;
+  font-weight: bold;
+  font-family: courier;
+  background-image:url("../assets/image.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+p {
+  color: #e5f309;
+  background-color: #550cad;
+}
+
+h2 {
+  color: #eea30d;
+  font-weight: bold;
+  font-size: 300%;
+  background-color: #210344
+}
