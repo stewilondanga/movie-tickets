@@ -2,7 +2,7 @@
   text-align: center;
   font-weight: bold;
   font-family: courier;
-  background-image:url("../assets/image.jpeg");
+  background-image:url("../assets/image.gif");
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -17,4 +17,34 @@ h2 {
   font-weight: bold;
   font-size: 300%;
   background-color: #210344
+}
+
+* {margin:0;padding:0;}
+
+.container {
+  max-width: 750px;
+  max-height: 450px;
+  overflow: auto;
+  margin: 1.5em auto;
+  border: 1px solid #fff;
+    input {
+      width: 90%;
+      margin: 1em auto;
+      padding: 1.2em;
+      display: block;
+      border: none;
+      box-shadow: inset 1px 1px 0 #efefef, 1px 1px 0 #fff;
+    }
+    ul {
+      list-style: none;
+    }
+    li {
+      border-bottom: 1px solid #efefef;
+      padding: .5em 1em;
+    }
+    .name a {
+      color: #664499;
+      text-decoration: none;
+      display: block;
+    }
 }
